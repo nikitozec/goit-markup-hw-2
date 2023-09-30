@@ -17,10 +17,11 @@ body {
 
 .header-logo-blue {
   color: #4d5ae5;
+  text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
 }
@@ -64,7 +65,7 @@ body {
   color: #404bbf;
 }
 
-.hero-image {
+.section-hero-image {
   background-color: #2e2f42;
 }
 
@@ -169,6 +170,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.footer-link {
+  color: #4d5ae5;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: left;
 }
 
