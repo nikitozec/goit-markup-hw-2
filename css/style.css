@@ -1,11 +1,13 @@
 body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
-  color: #ffffff;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .header-logo {
   color: #2e2f42;
-  font-family: Raleway;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -15,6 +17,12 @@ body {
 
 .header-logo-blue {
   color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .header-menu-item {
@@ -26,6 +34,19 @@ body {
   text-align: left;
 }
 
+.header-menu-link {
+  color: #2e2f42;
+}
+
+.header-menu-link:hover,
+:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
 .address-list-item {
   color: #434455;
   font-size: 16px;
@@ -34,11 +55,17 @@ body {
   text-align: left;
 }
 
+.address-list-link {
+  color: #434455;
+}
+
+.address-list-link:hover,
+:focus {
+  color: #404bbf;
+}
+
 .hero-image {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  top: 72px;
 }
 
 .section-order-button {
@@ -130,9 +157,6 @@ body {
 
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
-  top: 2988px;
 }
 
 .footer-text {
