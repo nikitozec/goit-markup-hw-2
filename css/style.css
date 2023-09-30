@@ -174,4 +174,6 @@ body {
 
 .header-logo-white {
   color: #f4f4fd;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
 }
